@@ -17,3 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var total = 44;
+var nperfila = 6;
+
+var numfile= (Math.ceil(total/nperfila));
+var resti= total%nperfila;
+
+console.log(`Ci sono ${total} gatti in ${numfile} divisi per ${nperfila} in ${numfile} fila. Nell'ultima fila mancano ${resti} gatti per essere completata`);
