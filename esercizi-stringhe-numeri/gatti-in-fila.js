@@ -24,4 +24,4 @@ var nperfila = 6;
 var numfile= (Math.ceil(total/nperfila));
 var resti= total%nperfila;
 
-console.log(`Ci sono ${total} gatti in ${numfile} divisi per ${nperfila} in ${numfile} fila. Nell'ultima fila mancano ${resti} gatti per essere completata`);
+console.log(`Ci sono ${total} gatti divisi per ${nperfila} in ${numfile} fila. Nell'ultima fila mancano ${resti} gatti per essere completata`);

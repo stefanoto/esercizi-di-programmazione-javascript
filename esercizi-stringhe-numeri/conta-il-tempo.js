@@ -12,3 +12,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var secondi = 60
+
+var ore = Math.floor(secondi/3600)
+var minuti = Math.floor((secondi-(ore*3600))/60)
+var restsec = secondi-(minuti*60)-(ore*3600)
+
+console.log(`${ore} ore, ${minuti} minuti e ${restsec} secondi.`)

@@ -11,3 +11,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var annocorrente = 2020
+var bornin = 1986
+
+var age = annocorrente - bornin
+var to100 =  100 - age
+
+console.log(`Hai ${age} anni, Tra ${to100} anni compirai 100 anni`)
